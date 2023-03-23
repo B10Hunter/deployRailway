@@ -15,5 +15,9 @@ app.get('/', (req,res) =>{
 
 })
 
+app.get('/bye',(res,req) =>{
+    res.send('Adios Railway')
+})
+
 
 app.listen(PORT, () => console.log(`servidor en ${PORT }`))
