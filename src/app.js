@@ -25,7 +25,7 @@ app.get('/bye',(res,req) =>{
 
 app.get("/user",(req,res)=>{
     if(process.env.ENVIRONEMT === "PRODUCTION"){
-        res.send('Obtenindo usuario de la base de datos productiva')
+        res.send('Obtenindo usuario de la base de datos productivaa')
     }
     else{
         res.send(`obteniendo usuario de la base de datos de prueba: ${process.env.TESTUSER}`)
